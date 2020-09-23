@@ -1,0 +1,84 @@
+:root {
+  --accent1-color: #ee1722;
+  --accent2-color: #ffd7d7;
+  --accent3-color: rgba(230, 230, 230, 0.7);
+  --bg-color: #dadada;
+  --font-family: "Segoe UI";
+  --footer-height: 4em;
+  --main-color: #c0040e;
+  --text-primary-color: #333;
+  --text-secondary-color: gray;
+}
+
+* {
+  font-family: var(--font-family);
+}
+
+html,
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url("bg-min.jpg");
+  background-color: var(--bg-color);
+}
+
+body::after {
+  content: "";
+  background: inherit;
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  filter: blur(10px);
+}
+
+a:link,
+a:visited {
+  color: var(--text-secondary-color);
+}
+
+a:hover {
+  color: var(--accent1-color);
+}
+
+#content {
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+}
+
+#nav {
+  z-index: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  margin-left: auto;
+  background-color: var(--bg-color);
+}
+
+#nav>a {
+  font-size: 1.5em;
+}
+
+#nav>.active {
+  color: var(--accent1-color);
+  border: 2px solid;
+  border-radius: 1em;
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+#contentContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  flex-wrap: wrap;
+}
