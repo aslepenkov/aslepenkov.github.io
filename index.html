@@ -16,12 +16,11 @@
 <body>
   <div id="content">
     <div id="nav">
-      <a class="active" href="#about" id="about">About</a>
+      <a class="active"  href="#work" id="work">Work XP</a>
       <a href="#study" id="study">Study XP</a>
-      <a href="#work" id="work">Work XP</a>
+       <!-- <a href="#about" id="about">About</a>  -->
       <!-- <a href="#hobby" id="hobby">Hobby</a> -->
     </div>
-
     <div id="contentContainer">
       <div id="leftContent">
         <div class="spacer"></div>
@@ -33,9 +32,18 @@
               <span class="bubble">Alex Slepenkov</span> .NET software engineer
             </h2>
             <div id="secondaryInfo" class="bubble">
-              I make Desktop apps & Esri ArcGIS plugins. Inspired in web/native dev
-              <br />✔Main stack: C#, .NET Framework, WPF,
-              WinForms <br />
+              Master in Computer Science and Engineering (NSU)
+              <br />
+              I develop and maintain an ETL system for #1 broker on Moscow Exchange #MOEX
+              <br />
+              <br />
+              3+ years of C# .NET Framework experience
+              <br />
+              2+ years of esri ArcGIS products add-ins developing experience
+              <br />
+              <br />
+              ✔Main stack: C#, SQL, .NET Framework, WPF, WinForms
+              <br />
               🎯My inspiration: JavaScript, NodeJS, Flutter,
               React, .NET Core
             </div>
@@ -51,8 +59,15 @@
             </div>
             <div class="experience bubble">
               <h4>Software Engineer</h4>
+              <span>FG BCS, Ltd, Novosibirsk, Russia</span>
+              <span>2020-till now</span>
+              <span></span>
+              <a href="https://bcs.ru">https://bcs.ru</a>
+            </div>
+            <div class="experience bubble">
+              <h4>Software Engineer</h4>
               <span>XTools, LLC, Novosibirsk, Russia</span>
-              <span>2018-till now</span>
+              <span>2018-2020</span>
               <span></span>
               <a href="https://xtools.pro">https://xtools.pro</a>
             </div>
@@ -67,10 +82,18 @@
 
           <div id="skillsMatrixContent">
             <div class="bubble skill">
-              <span>.NET</span>
+              <span>C#/.NET</span>
               <span class="dotYes"></span>
               <span class="dotYes"></span>
               <span class="dotYes"></span>
+              <span class="dotNo"></span>
+              <span class="dotNo"></span>
+            </div>
+            <div class="bubble skill">
+              <span>SQL</span>
+              <span class="dotYes"></span>
+              <span class="dotYes"></span>
+              <span class="dotNo"></span>
               <span class="dotNo"></span>
               <span class="dotNo"></span>
             </div>
@@ -126,7 +149,68 @@
         </div>
       </div>
       <div id="rightContent">
-        <div name="about" id="aboutContent">
+        <div name="work" id="workContent">
+          <div class="bubble">
+            <h2>11/2020 – present: FG BCS, Ltd, Novosibirsk, Russia</h2>
+            ODS – Operational data store. ETL system for stock market data
+            <ul>
+            </ul>
+            <span class="mainColorText">Tech:</span> С#,
+            .NET Framework, MS SQL Server, XSD/XML, Unity Container, BLToolkit, XQuery, TeamCity, FishEye, Jira, Mercurial <br>
+            <span class="mainColorText">Team:</span> Scrum / 7 DEV, 4
+            QA, 4 BA, 3 SUPP
+          </div>
+  
+          <div class="bubble">
+            <h2>02/2018 – 11/2020: XTools, LLC, Novosibirsk, Russia</h2>
+            Extension for Esri ArcGIS Desktop and ArcGIS Pro
+            <ul>
+              <li>ArcGIS Desktop extensions and tools development</li>
+              <li>ArcGIS Pro Add-In development</li>
+              <li>ИсBug fixing and code refactoring</li>
+              <li>MS Excel interaction components development</li>
+              <li>UI elements development & design</li>
+              <li>Development tasks estimation</li>
+              <li>Improved user's geodata search algorithm with async Task Queues</li>
+              </li>
+            </ul>
+            <span class="mainColorText">Tech:</span> С#,
+            .NET Framework, WPF, MVVM, COM, ArcGIS sdk, ArcGIS PRO sdk,
+            YouTrack, Git <br>
+            <span class="mainColorText">Team:</span> Scrum / 5 DEV, 1
+            QA, 2 BA
+          </div>
+  
+          <div class="bubble">
+            <h2>
+              01/2016 – 08/2016: EPAM Systems, Inc, Karaganda, Kazakhstan
+            </h2>
+            ECDL Qualification automatic test system (MS Office)
+            <ul>
+              <li>
+                Implemented custom UI controls, ribbon & backstage for MS Office 2013 (Word,
+                Excel, PowerPoint)
+  
+              </li>
+              <li>
+                Supplemented a solution for Event Processing in the document object model (Word,
+                Excel, PowerPoint)
+              </li>
+              <li>
+                Implemented a cycle of work in Jenkins (unit tests, assemblies, deployment to test
+                stands, preparing the environment for a demo)
+              </li>
+              <li>Introduced an intern student. Project onboarding, goals, code review </li>
+            </ul>
+  
+            <span class="mainColorText">Tech:</span> .NET
+            Framework, Jenkins, DevExpress (WinForms, WPF), VS Tools for
+            Office, COM, ASP.NET, MS SQL Server, JIRA, SVN <br>
+            <span class="mainColorText">Team:</span> Scrum / 12 DEV, 8
+            QA, 3 BA
+          </div>
+        </div>
+        <div name="about" id="aboutContent" class="hidden"> 
           <img src="public/about.png" />
         </div>
         <div name="study" id="studyContent" class="hidden">
@@ -160,56 +244,10 @@
               <li>2019 – Vue.js</li>
               <li>2019 – React.js</li>
               <li>2019 – Google Firebase</li>
-              <li>2019 – JavaScript (Yandex)</li>
+              <li>2019 – JavaScript (Yandex+Stepik certificate)</li>
+              <li>2020 – Flutter</li>
+              <li>2020 – MS SQL Server</li>
             </ul>
-          </div>
-        </div>
-        <div name="work" id="workContent" class="hidden">
-          <div class="bubble">
-            <h2>
-              01/2016 – 08/2016: EPAM Systems, Inc, Karaganda, Kazakhstan
-            </h2>
-            <ul>
-              <li>
-                Implemented custom UI controls, ribbon & backstage for MS Office 2013 (Word,
-                Excel, PowerPoint)
-
-              </li>
-              <li>
-                Supplemented a solution for Event Processing in the document object model (Word,
-                Excel, PowerPoint)
-              </li>
-              <li>
-                Implemented a cycle of work in Jenkins (unit tests, assemblies, deployment to test
-                stands, preparing the environment for a demo)
-
-              </li>
-              <li>Introduced an intern student. Project onboarding, goals, code review </li>
-            </ul>
-
-            <span class="mainColorText">Tech:</span> .NET
-            Framework, Jenkins, DevExpress (WinForms, WPF), VS Tools for
-            Office, COM, ASP.NET, MS SQL Server, JIRA, SVN <br>
-            <span class="mainColorText">Team:</span> Scrum / 12 DEV, 8
-            QA, 3 BA
-          </div>
-          <div class="bubble">
-            <h2>02/2018 – present: XTools, LLC, Novosibirsk, Russia</h2>
-            <ul>
-              <li>ArcGIS Desktop extensions and tools development</li>
-              <li>ArcGIS Pro Add-In development</li>
-              <li>ИсBug fixing and code refactoring</li>
-              <li>MS Excel interaction components development</li>
-              <li>UI elements development & design</li>
-              <li>Development tasks estimation</li>
-              <li>Improved user's geodata search algorithm with async Task Queues</li>
-              </li>
-            </ul>
-            <span class="mainColorText">Tech:</span> С#,
-            .NET Framework, WPF, MVVM, COM, ArcGIS sdk, ArcGIS PRO sdk,
-            YouTrack, Git <br>
-            <span class="mainColorText">Team:</span> Scrum / 5 DEV, 1
-            QA, 2 BA
           </div>
         </div>
         <div name="hobby" id="hobbyContent" class="hidden">
@@ -228,7 +266,7 @@
     <div id="footer">
       <hr />
       <div class="coopyright">
-        <span>© aslepenkov 2020</span>
+        <span>© aslepenkov 2021</span>
       </div>
       <div class="social">
         <a href="https://www.linkedin.com/in/alex-slepenkov/" target="_blank"><i class="fab fa-linkedin"></i></a>

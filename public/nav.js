@@ -9,9 +9,9 @@ const workContent = document.getElementById("workContent");
 const hobbyContent = document.getElementById("hobbyContent");
 
 const pages = [
-  { nav: about, page: aboutContent },
   { nav: study, page: studyContent },
   { nav: work, page: workContent },
+  { nav: about, page: aboutContent },
   { nav: hobby, page: hobbyContent },
 ];
 
